@@ -1,0 +1,12 @@
+[package]
+name = "rustbelt-engine-wasm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Raw C-ABI wasm build of the engine, loaded inside an AudioWorklet"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rustbelt-engine = { path = "../engine" }

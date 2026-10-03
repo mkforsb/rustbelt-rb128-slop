@@ -1,0 +1,8 @@
+[package]
+name = "rustbelt-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "DSP, sequencer and command protocol for the RUSTBELT RB-128 groovebox"
+
+[dependencies]

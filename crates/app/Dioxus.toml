@@ -1,0 +1,8 @@
+[application]
+name = "rustbelt"
+
+[web.app]
+title = "RUSTBELT RB-128"
+
+[web.watcher]
+watch_path = ["src", "assets", "../engine/src", "../engine-wasm/src"]
